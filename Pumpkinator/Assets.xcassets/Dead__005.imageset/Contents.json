@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Dead__005.png",
+      "filename" : "Dead__005@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Dead__005@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Dead__005@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

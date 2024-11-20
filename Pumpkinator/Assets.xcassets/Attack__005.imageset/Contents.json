@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Attack__005.png",
+      "filename" : "Attack__005@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Attack__005@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Attack__005@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

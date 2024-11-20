@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Glide_007.png",
+      "filename" : "Glide_007@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Glide_007@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Glide_007@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Idle__002.png",
+      "filename" : "Idle__002@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Idle__002@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Idle__002@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
