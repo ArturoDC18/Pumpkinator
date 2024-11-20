@@ -24,8 +24,7 @@ class GameViewController: UIViewController {
                 view.presentScene(scene)
             }
             
-            view.ignoresSiblingOrder = true
-            
+            view.ignoresSiblingOrder = false //false: beacuse we have multiple nodes with same z position, z position is a number that determines the order of nodes appearing on the screen
             view.showsFPS = true
             view.showsNodeCount = true
         }
