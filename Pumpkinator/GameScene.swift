@@ -53,7 +53,7 @@ class GameScene: SKScene {
     
     func startGame() {
         
-        ninja = makeNinja()
+        ninja = jumpNinja()
         
     }
     

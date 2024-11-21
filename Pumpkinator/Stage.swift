@@ -75,7 +75,7 @@ extension GameScene {
             SKTexture(imageNamed: "Run__008"),
             SKTexture(imageNamed: "Run__009")
             
-        ], timePerFrame: 0.1)
+        ], timePerFrame: 0.05)
         
         let forever = SKAction.repeatForever(animRun)
         addChild(ninja)
@@ -111,7 +111,7 @@ extension GameScene {
             SKTexture(imageNamed: "Dead__008"),
             SKTexture(imageNamed: "Dead__009")
             
-        ], timePerFrame: 0.1)
+        ], timePerFrame: 0.05)
         
         let forever = SKAction.repeatForever(animDead)
         addChild(ninja)
@@ -183,9 +183,9 @@ extension GameScene {
             SKTexture(imageNamed: "Jump__008"),
             SKTexture(imageNamed: "Jump__009")
             
-        ], timePerFrame: 0.1)
+        ], timePerFrame: 0.07)
         
-        let forever = SKAction.repeatForever(animJump)
+        let forever = SKAction.repeat(animJump, count: 1)
         addChild(ninja)
         ninja.run(forever)
         
