@@ -40,11 +40,8 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         
-        // Update camera position
-        cameraNode.position.x = ninja.position.x
-        
         // Calculate the desired position
-        let desiredPosition = CGPoint(x: ninja.position.x, y: cameraNode.position.y)
+        let desiredPosition = CGPoint(x: ninja.position.x + 550, y: cameraNode.position.y)
         
         // Smoothly move the camera towards the desired position
         let action = SKAction.move(to: desiredPosition, duration: 0.1)
@@ -56,7 +53,7 @@ class GameScene: SKScene {
     
     func startGame() {
         
-        ninja = attackNinja()
+        ninja = makeNinja()
         
     }
     
